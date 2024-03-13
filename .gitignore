@@ -1,0 +1,6 @@
+**/config.properties
+**/dataLoader.key
+**/**.properties
+**/**.csv
+**/**.sdl
+**/export.ps1
