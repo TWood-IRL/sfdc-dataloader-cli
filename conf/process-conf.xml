@@ -1,0 +1,13 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <bean id="default"
+    class="com.salesforce.dataloader.process.ProcessRunner" scope="prototype" >
+        <description>Salesforce CLI - Default config</description>
+        <property name="name" value="defualtConfig"/>
+        <property name="configOverrideMap">
+            <map>
+                <entry key="sfdc.debugMessages" value="false"/>
+            </map>
+        </property>
+    </bean>
+</beans>
